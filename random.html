@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random number generator</title>
+    <link rel="stylesheet" href="random.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Random Number generator</h1>
+        </header>
+        
+        <div class="content">
+            <p>Specify the upperbound and lowerbound and the amount of numbers to be generated
+                from the specified numbers
+            </p>
+        </div>
+
+        <div class="forms">
+            <form action="" class="forms" id="form">
+                <p>
+                    <label for="upperbound" class="upperbound"> upperbound: </label>
+                    <input type="number" id="upper" class="up-input" name="upperbound">
+                </p>
+
+                <p>
+                    <label for="lowerbound" class="lowerbound">lowerbound: </label>
+                    <input type="number" id="lower" class="low-input" name="lowerbound">
+                </p>
+
+                <p>
+                    <label for="length" class="length">Amount of numbers to be generated: </label>
+                    <input type="number" id="length" class="i-input" name="length">
+                </p>
+
+                <input type="submit" id="submit">
+            </form>
+        </div>
+
+        <div class="game-results" id="game-results">
+                       
+        </div>
+    
+    </div>
+
+
+    <script src="main.js"></script>    
+</body>
+</html>
